@@ -7,82 +7,82 @@ var UserSchema = new Schema({
     trim: true,
     required: "name is Required"
   },
-  
+
   phoneNumber: {
     type: String,
     trim: true,
     required: "Password is Required"
   },
 
-  height: {
+  specialize: {
     type: String,
     trim: true,
   },
 
-  weight: {
+  training: {
     type: String,
     trim: true,
   },
 
-  fitnessGoal: {
+  recentSuccess: {
     type: String,
     trim: true
   },
 
-  motivation: {
+  experience: {
     type: String,
     trim: true
   },
 
-  personalTraining: {
+  personality: {
     type: String,
     trim: true
   },
 
-  trainingExperience: {
+  testimonial: {
     type: String,
     trim: true
   },
 
-  trainerExpectation: {
+ workoutPlan: {
     type: String,
     trim: true
   },
 
-  currentExercise: {
-    type: String,
-    trim: true
-  },
+//   currentExercise: {
+//     type: String,
+//     trim: true
+//   },
 
-  physicalLimit: {
-    type: String,
-    trim: true
-  },
+//   physicalLimit: {
+//     type: String,
+//     trim: true
+//   },
 
-  currentActivities: {
-    type: String,
-    trim: true
-  },
+//   currentActivities: {
+//     type: String,
+//     trim: true
+//   },
 
-  excerciseWeekly: {
-    type: String,
-    trim: true
-  },
+//   excerciseWeekly: {
+//     type: String,
+//     trim: true
+//   },
 
-  tabaccoUse:{
-    type: String,
-    trim: true
-  },
+//   tabaccoUse:{
+//     type: String,
+//     trim: true
+//   },
 
-  alcoholUse: {
-    type: String,
-    trim: true
-  },
+//   alcoholUse: {
+//     type: String,
+//     trim: true
+//   },
 
-  medsHealth: {
-    type: String,
-    trim: true
-  }
+//   medsHealth: {
+//     type: String,
+//     trim: true
+//   }
 
 });
 
