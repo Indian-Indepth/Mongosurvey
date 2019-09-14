@@ -4,7 +4,7 @@ var mongoose = require("mongoose");
 var bodyparser = require('body-parser');
 
 var PORT = 3000;
-var User = require("./models/personalinfoModel.js");
+var User = require("./models/personalinfoModel.js.js.js");
 
 var app = express();
 
