@@ -49,6 +49,43 @@ var UserSchema = new Schema({
     trim: true
   },
 
+<<<<<<< HEAD
+=======
+//   currentExercise: {
+//     type: String,
+//     trim: true
+//   },
+
+//   physicalLimit: {
+//     type: String,
+//     trim: true
+//   },
+
+//   currentActivities: {
+//     type: String,
+//     trim: true
+//   },
+
+//   excerciseWeekly: {
+//     type: String,
+//     trim: true
+//   },
+
+//   tabaccoUse:{
+//     type: String,
+//     trim: true
+//   },
+
+//   alcoholUse: {
+//     type: String,
+//     trim: true
+//   },
+
+//   medsHealth: {
+//     type: String,
+//     trim: true
+//   }
+>>>>>>> fb9bcda2b5831f0dcd0d66a432e03497c132c2ca
 
 });
 
